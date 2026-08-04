@@ -39,7 +39,7 @@ btnLoad.addEventListener("click", (e) => {
     alert("Password không thể thực hiện!! 😥");
   } else {
     nickName =
-      in0 != ""
+      inn0 != ""
         ? RandomString(letters, 1) +
           RandomString(letters + upercaseLetters + numbers, inn0 - 1)
         : "";
