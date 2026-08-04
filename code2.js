@@ -62,6 +62,3 @@ btnLoad.addEventListener("click", (e) => {
     pass.textContent = pasword;
   }
 });
-
-id.textContent = userId;
-pass.textContent = pasword;
