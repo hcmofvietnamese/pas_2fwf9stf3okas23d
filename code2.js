@@ -31,7 +31,7 @@ btnLoad.addEventListener("click", (e) => {
   const inn0 = in0.value;
   const inn1 = in1.value;
   const inn2 = in2.value;
-  if (inn0 > 20 || inn0 < 0) {
+  if (inn0 > 25 || inn0 < 0) {
     alert("Nick Name không thể thực hiện !! 😥");
   } else if (inn1 > 50 || inn1 < 0) {
     alert("ID không thể thực hiện !! 😪");
