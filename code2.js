@@ -32,11 +32,11 @@ btnLoad.addEventListener("click", (e) => {
   const inn1 = in1.value;
   const inn2 = in2.value;
   if (inn0 > 25 || inn0 < 0) {
-    alert("Nick Name không thể thực hiện !! 😥");
+    alert("Nick Name không quá 25 kt !! 😥");
   } else if (inn1 > 50 || inn1 < 0) {
-    alert("ID không thể thực hiện !! 😪");
+    alert("ID không quá 50 !! 😪");
   } else if (inn2 > 100 || inn2 < 0) {
-    alert("Password không thể thực hiện!! 😥");
+    alert("Password không quá 100!! 😥");
   } else {
     nickName =
       inn0 != ""
