@@ -34,9 +34,9 @@ btnLoad.addEventListener("click", (e) => {
   if (inn0 > 25 || inn0 < 0) {
     alert("Nick Name không quá 25 kt !! 😥");
   } else if (inn1 > 50 || inn1 < 0) {
-    alert("ID không quá 50 !! 😪");
+    alert("ID không quá 50 kt !! 😪");
   } else if (inn2 > 100 || inn2 < 0) {
-    alert("Password không quá 100!! 😥");
+    alert("Password không quá 100 kt !! 😥");
   } else {
     nickName =
       inn0 != ""
